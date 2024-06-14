@@ -1,6 +1,6 @@
 async function search(location) {
   let response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=faba7456bd4847388ca172027241406&q=${location}&days=7`
+    `https://api.weatherapi.com/v1/forecast.json?key=faba7456bd4847388ca172027241406&q=${location}&days=7`
     
 
   );
